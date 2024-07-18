@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>weatherReport</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter yout city" spellcheck="true">
+                <button><img src="./assets/images/search.png" alt="search-box"></button>
+            </div>
+
+            <div class="error">
+                <p>Invalid City name</p>
+            </div>
+
+            <div class="weather-icon">
+                <img class="weatherReport" src="./assets/images/rain.png"alt="weather">
+                <h1 class="temp">22°C</h1>
+                <h2 class="city">New York</h2>
+
+                <div class="details">
+                    <div class="col">
+                        <img src="./assets/images/humidity.png" alt="humidity">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./assets/images/wind.png" alt="wind">
+                        <div>
+                            <p class="wind">10km/hr</p>
+                            <p>Wind</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    
+
+
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
