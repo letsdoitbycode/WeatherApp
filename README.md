@@ -19,3 +19,6 @@ WeatherAPP is a user-friendly web application that provides real-time weather in
 - JavaScript: For handling API requests, data processing, and UI updates.
 - Weather API: For sourcing live weather data based on user input.
 
+![Screenshot 2024-11-01 162050](https://github.com/user-attachments/assets/bcf4eec6-1866-4e87-bea6-da38f1526f7a)
+
+
